@@ -236,6 +236,7 @@ function ProductList({ onHomeClick }) {
     const styleA = {
         color: 'white',
         fontSize: '30px',
+        marginLeft: '260px',
         textDecoration: 'none',
     }
 
@@ -304,7 +305,7 @@ function ProductList({ onHomeClick }) {
                 <div style={styleObjUl}>
                     <div> <a href="#" onClick={(e) => handlePlantsClick(e)} style={styleA}>Plants</a></div>
                     <div style={{ position: 'relative' }}>
-  <a href="#" onClick={(e) => handleCartClick(e)} style={styleA}>
+  <a href="#" onClick={(e) => handleCartClick(e)} >
     <h1 className='cart'>
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" height="68" width="68">
         <rect width="156" height="156" fill="none"></rect>
@@ -338,7 +339,14 @@ function ProductList({ onHomeClick }) {
                     {plantsArray.map((category, index) => ( // Loop through each category in plantsArray
   <div key={index}> {/* Unique key for each category div */}
     <h1>
-      <div>{category.category}</div> {/* Display the category name */}
+    <div
+  style={{
+    textAlign: 'center',     // centers the text horizontally
+        // spacing below
+  }}
+>
+  {category.category}
+</div> {/* Display the category name */}
     </h1>
     <div className="product-list"> {/* Container for the list of plant cards */}
       {category.plants.map((plant, plantIndex) => ( // Loop through each plant in the current category
