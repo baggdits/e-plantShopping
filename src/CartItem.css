@@ -234,10 +234,14 @@
     font-size: 23px;
     border: none;
     border-radius: 5px;
-    background-color: #4caf50;
+    background-color: blue;
     color: white;
     cursor: pointer;
     transition: background-color 0.3s ease;
     margin-top: 40px;
+  }
+
+  .get-started-button1:hover {
+    background-color: #c0392b;
   }
   

@@ -13,213 +13,213 @@ function ProductList({ onHomeClick }) {
     const totalQuantity = cart.reduce((total, item) => total + item.quantity, 0);
     const plantsArray = [
         {
-            category: "Air Purifying Plants",
+            category: "Piano",
             plants: [
                 {
-                    name: "Snake Plant",
-                    image: "https://cdn.pixabay.com/photo/2021/01/22/06/04/snake-plant-5939187_1280.jpg",
-                    description: "Produces oxygen at night, improving air quality.",
-                    cost: "$15"
+                    name: "Piano 1",
+                    image: "https://cdn.pixabay.com/photo/2017/01/31/15/38/amigos-2025167_1280.png",
+                    description: "Grand piano.",
+                    cost: "$350"
                 },
                 {
-                    name: "Spider Plant",
-                    image: "https://cdn.pixabay.com/photo/2018/07/11/06/47/chlorophytum-3530413_1280.jpg",
-                    description: "Filters formaldehyde and xylene from the air.",
-                    cost: "$12"
+                    name: "Piano 2",
+                    image: "https://cdn.pixabay.com/photo/2015/08/24/17/24/piano-905287_1280.jpg",
+                    description: "Vintage Piano.",
+                    cost: "$320"
                 },
                 {
-                    name: "Peace Lily",
-                    image: "https://cdn.pixabay.com/photo/2019/06/12/14/14/peace-lilies-4269365_1280.jpg",
-                    description: "Removes mold spores and purifies the air.",
-                    cost: "$18"
+                    name: "Piano 3",
+                    image: "https://cdn.pixabay.com/photo/2020/04/10/10/45/audio-5025179_1280.jpg",
+                    description: "Digital piano.",
+                    cost: "$280"
                 },
                 {
-                    name: "Boston Fern",
-                    image: "https://cdn.pixabay.com/photo/2020/04/30/19/52/boston-fern-5114414_1280.jpg",
-                    description: "Adds humidity to the air and removes toxins.",
-                    cost: "$20"
+                    name: "Piano 4",
+                    image: "https://cdn.pixabay.com/photo/2022/02/22/13/25/instrument-7028787_1280.jpg",
+                    description: "Vintage Digital piano.",
+                    cost: "$200"
                 },
                 {
-                    name: "Rubber Plant",
-                    image: "https://cdn.pixabay.com/photo/2020/02/15/11/49/flower-4850729_1280.jpg",
-                    description: "Easy to care for and effective at removing toxins.",
-                    cost: "$17"
+                    name: "Piano 5",
+                    image: "https://cdn.pixabay.com/photo/2014/06/27/10/56/spinet-378257_1280.jpg",
+                    description: "Spinet piano.",
+                    cost: "$170"
                 },
                 {
-                    name: "Aloe Vera",
-                    image: "https://cdn.pixabay.com/photo/2018/04/02/07/42/leaf-3283175_1280.jpg",
-                    description: "Purifies the air and has healing properties for skin.",
-                    cost: "$14"
+                    name: "Piano 6",
+                    image: "https://cdn.pixabay.com/photo/2017/12/06/09/55/piano-3001357_1280.jpg",
+                    description: "Babygrand piano.",
+                    cost: "$140"
                 }
             ]
         },
         {
-            category: "Aromatic Fragrant Plants",
+            category: "Clarinets",
             plants: [
                 {
-                    name: "Lavender",
-                    image: "https://images.unsplash.com/photo-1611909023032-2d6b3134ecba?q=80&w=1074&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-                    description: "Calming scent, used in aromatherapy.",
-                    cost: "$20"
+                    name: "Clarinet 1",
+                    image: "https://cdn.pixabay.com/photo/2016/10/16/04/51/music-1744419_1280.jpg",
+                    description: "Eb clarinet.",
+                    cost: "$200"
                 },
                 {
-                    name: "Jasmine",
-                    image: "https://images.unsplash.com/photo-1592729645009-b96d1e63d14b?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-                    description: "Sweet fragrance, promotes relaxation.",
-                    cost: "$18"
+                    name: "Clarinet 2",
+                    image: "https://cdn.pixabay.com/photo/2015/04/14/21/26/clarinet-722815_1280.jpg",
+                    description: "Eb Clarinet gold.",
+                    cost: "$280"
                 },
                 {
-                    name: "Rosemary",
-                    image: "https://cdn.pixabay.com/photo/2019/10/11/07/12/rosemary-4541241_1280.jpg",
-                    description: "Invigorating scent, often used in cooking.",
-                    cost: "$15"
+                    name: "Clarinet 3",
+                    image: "https://cdn.pixabay.com/photo/2016/10/16/04/51/music-1744419_1280.jpg",
+                    description: "G clarinet.",
+                    cost: "$150"
                 },
                 {
-                    name: "Mint",
-                    image: "https://cdn.pixabay.com/photo/2016/01/07/18/16/mint-1126282_1280.jpg",
-                    description: "Refreshing aroma, used in teas and cooking.",
-                    cost: "$12"
+                    name: "Clarinet 4",
+                    image: "https://cdn.pixabay.com/photo/2017/07/14/21/57/instrument-2505102_1280.jpg",
+                    description: "Eb clarinet.",
+                    cost: "$120"
                 },
                 {
-                    name: "Lemon Balm",
-                    image: "https://cdn.pixabay.com/photo/2019/09/16/07/41/balm-4480134_1280.jpg",
-                    description: "Citrusy scent, relieves stress and promotes sleep.",
-                    cost: "$14"
+                    name: "Clarinet 5",
+                    image: "https://cdn.pixabay.com/photo/2019/03/31/11/33/clarinet-4092904_1280.jpg",
+                    description: "Alto clarinet.",
+                    cost: "$140"
                 },
                 {
-                    name: "Hyacinth",
-                    image: "https://cdn.pixabay.com/photo/2019/04/07/20/20/hyacinth-4110726_1280.jpg",
-                    description: "Hyacinth is a beautiful flowering plant known for its fragrant.",
-                    cost: "$22"
+                    name: "Clarinet 6",
+                    image: "https://cdn.pixabay.com/photo/2014/10/07/18/40/clarinet-478168_1280.jpg",
+                    description: "Eb learning clarinet.",
+                    cost: "$220"
                 }
             ]
         },
         {
-            category: "Insect Repellent Plants",
+            category: "Guitars",
             plants: [
                 {
-                    name: "oregano",
-                    image: "https://cdn.pixabay.com/photo/2015/05/30/21/20/oregano-790702_1280.jpg",
-                    description: "The oregano plants contains compounds that can deter certain insects.",
-                    cost: "$10"
+                    name: "Guitar 1",
+                    image: "https://cdn.pixabay.com/photo/2017/05/01/18/18/guitar-2276181_1280.jpg",
+                    description: "Classic guitar.",
+                    cost: "$100"
                 },
                 {
-                    name: "Marigold",
-                    image: "https://cdn.pixabay.com/photo/2022/02/22/05/45/marigold-7028063_1280.jpg",
-                    description: "Natural insect repellent, also adds color to the garden.",
-                    cost: "$8"
+                    name: "Guitar 2",
+                    image: "https://cdn.pixabay.com/photo/2020/12/16/16/32/guitar-5837061_1280.jpg",
+                    description: "Vintage classic guitar.",
+                    cost: "$80"
                 },
                 {
-                    name: "Geraniums",
-                    image: "https://cdn.pixabay.com/photo/2012/04/26/21/51/flowerpot-43270_1280.jpg",
-                    description: "Known for their insect-repelling properties while adding a pleasant scent.",
-                    cost: "$20"
+                    name: "Guitar 3",
+                    image: "https://cdn.pixabay.com/photo/2017/08/06/07/28/guitar-2589863_1280.jpg",
+                    description: "White Electric guitar.",
+                    cost: "$200"
                 },
                 {
-                    name: "Basil",
-                    image: "https://cdn.pixabay.com/photo/2016/07/24/20/48/tulsi-1539181_1280.jpg",
-                    description: "Repels flies and mosquitoes, also used in cooking.",
-                    cost: "$9"
+                    name: "Guitar 4",
+                    image: "https://cdn.pixabay.com/photo/2016/10/12/23/22/electric-guitar-1736291_1280.jpg",
+                    description: "Vintage electric guitar.",
+                    cost: "$90"
                 },
                 {
-                    name: "Lavender",
-                    image: "https://images.unsplash.com/photo-1611909023032-2d6b3134ecba?q=80&w=1074&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-                    description: "Calming scent, used in aromatherapy.",
-                    cost: "$20"
+                    name: "Guitar 5",
+                    image: "https://cdn.pixabay.com/photo/2017/11/07/00/22/guitar-2925282_1280.jpg",
+                    description: "Brown and White Electric guitar.",
+                    cost: "$200"
                 },
                 {
-                    name: "Catnip",
-                    image: "https://cdn.pixabay.com/photo/2015/07/02/21/55/cat-829681_1280.jpg",
-                    description: "Repels mosquitoes and attracts cats.",
-                    cost: "$13"
+                    name: "Guitar 6",
+                    image: "https://cdn.pixabay.com/photo/2019/07/15/17/30/guitar-4339969_1280.jpg",
+                    description: "Classic guitar.",
+                    cost: "$130"
                 }
             ]
         },
         {
-            category: "Medicinal Plants",
+            category: "Drums",
             plants: [
                 {
-                    name: "Aloe Vera",
-                    image: "https://cdn.pixabay.com/photo/2018/04/02/07/42/leaf-3283175_1280.jpg",
-                    description: "Soothing gel used for skin ailments.",
-                    cost: "$14"
+                    name: "Drum 1",
+                    image: "https://cdn.pixabay.com/photo/2017/01/02/13/11/drum-kit-1946753_1280.jpg",
+                    description: "Classic drum kit.",
+                    cost: "$140"
                 },
                 {
-                    name: "Echinacea",
-                    image: "https://cdn.pixabay.com/photo/2014/12/05/03/53/echinacea-557477_1280.jpg",
-                    description: "Boosts immune system, helps fight colds.",
-                    cost: "$16"
+                    name: "Drum 2",
+                    image: "https://cdn.pixabay.com/photo/2019/05/23/04/29/drum-4223136_1280.jpg",
+                    description: "Classic drum kit.",
+                    cost: "$160"
                 },
                 {
-                    name: "Peppermint",
-                    image: "https://cdn.pixabay.com/photo/2017/07/12/12/23/peppermint-2496773_1280.jpg",
-                    description: "Relieves digestive issues and headaches.",
-                    cost: "$13"
+                    name: "Drum 3",
+                    image: "https://cdn.pixabay.com/photo/2021/06/23/14/32/drums-6358910_1280.jpg",
+                    description: "Classic drum kit 3 parts.",
+                    cost: "$100"
                 },
                 {
-                    name: "Lemon Balm",
-                    image: "https://cdn.pixabay.com/photo/2019/09/16/07/41/balm-4480134_1280.jpg",
-                    description: "Calms nerves and promotes relaxation.",
-                    cost: "$14"
+                    name: "Drum 4",
+                    image: "https://cdn.pixabay.com/photo/2020/12/23/09/56/electronic-drum-pad-5854409_1280.jpg",
+                    description: "Drum pad.",
+                    cost: "$140"
                 },
                 {
-                    name: "Chamomile",
-                    image: "https://cdn.pixabay.com/photo/2016/08/19/19/48/flowers-1606041_1280.jpg",
-                    description: "Soothes anxiety and promotes sleep.",
-                    cost: "$15"
+                    name: "Drum 5",
+                    image: "https://cdn.pixabay.com/photo/2014/05/28/15/10/eletronica-356598_1280.jpg",
+                    description: "Electronic drum.",
+                    cost: "$150"
                 },
                 {
-                    name: "Calendula",
-                    image: "https://cdn.pixabay.com/photo/2019/07/15/18/28/flowers-4340127_1280.jpg",
-                    description: "Heals wounds and soothes skin irritations.",
-                    cost: "$12"
+                    name: "Drum 6",
+                    image: "https://cdn.pixabay.com/photo/2021/09/23/13/59/drum-6649933_1280.jpg",
+                    description: "Vintage drum 2 parts.",
+                    cost: "$90"
                 }
             ]
         },
         {
-            category: "Low Maintenance Plants",
+            category: "Microphones",
             plants: [
                 {
-                    name: "ZZ Plant",
-                    image: "https://images.unsplash.com/photo-1632207691143-643e2a9a9361?q=80&w=464&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-                    description: "Thrives in low light and requires minimal watering.",
-                    cost: "$25"
+                    name: "Microphone 1",
+                    image: "https://cdn.pixabay.com/photo/2020/06/25/17/57/microphone-5340340_1280.jpg",
+                    description: "Studio recording microphone.",
+                    cost: "$250"
                 },
                 {
-                    name: "Pothos",
-                    image: "https://cdn.pixabay.com/photo/2018/11/15/10/32/plants-3816945_1280.jpg",
-                    description: "Tolerates neglect and can grow in various conditions.",
-                    cost: "$10"
+                    name: "Microphone 2",
+                    image: "https://cdn.pixabay.com/photo/2015/02/06/22/08/microphone-626618_1280.jpg",
+                    description: "Wired microphone.",
+                    cost: "$100"
                 },
                 {
-                    name: "Snake Plant",
-                    image: "https://cdn.pixabay.com/photo/2021/01/22/06/04/snake-plant-5939187_1280.jpg",
-                    description: "Needs infrequent watering and is resilient to most pests.",
-                    cost: "$15"
+                    name: "Microphone 3",
+                    image: "https://cdn.pixabay.com/photo/2021/05/24/14/46/old-microphone-6279518_1280.jpg",
+                    description: "Studio recording microphone.",
+                    cost: "$150"
                 },
                 {
-                    name: "Cast Iron Plant",
-                    image: "https://cdn.pixabay.com/photo/2017/02/16/18/04/cast-iron-plant-2072008_1280.jpg",
-                    description: "Hardy plant that tolerates low light and neglect.",
-                    cost: "$20"
+                    name: "Microphone 4",
+                    image: "https://cdn.pixabay.com/photo/2017/08/06/17/48/microphone-2594599_1280.jpg",
+                    description: "Gold wired microphone.",
+                    cost: "$200"
                 },
                 {
-                    name: "Succulents",
-                    image: "https://cdn.pixabay.com/photo/2016/11/21/16/05/cacti-1846147_1280.jpg",
-                    description: "Drought-tolerant plants with unique shapes and colors.",
-                    cost: "$18"
+                    name: "Microphone 5",
+                    image: "https://cdn.pixabay.com/photo/2019/01/18/15/03/podcast-3939905_1280.jpg",
+                    description: "Professional studio recording microphone.",
+                    cost: "$400"
                 },
                 {
-                    name: "Aglaonema",
-                    image: "https://cdn.pixabay.com/photo/2014/10/10/04/27/aglaonema-482915_1280.jpg",
-                    description: "Requires minimal care and adds color to indoor spaces.",
-                    cost: "$22"
+                    name: "Microphone 6",
+                    image: "https://cdn.pixabay.com/photo/2014/06/11/20/37/microphone-367041_1280.jpg",
+                    description: "Boom microphone.",
+                    cost: "$220"
                 }
             ]
         }
     ];
     const styleObj = {
-        backgroundColor: '#4CAF50',
+        backgroundColor: 'blue',
         color: '#fff!important',
         padding: '15px',
         display: 'flex',
@@ -236,7 +236,7 @@ function ProductList({ onHomeClick }) {
     const styleA = {
         color: 'white',
         fontSize: '30px',
-        marginLeft: '260px',
+        marginLeft: '220px',
         textDecoration: 'none',
     }
 
@@ -292,18 +292,18 @@ function ProductList({ onHomeClick }) {
             <div className="navbar" style={styleObj}>
                 <div className="tag">
                     <div className="luxury">
-                        <img src="https://cdn.pixabay.com/photo/2020/08/05/13/12/eco-5465432_1280.png" alt="" />
+                        <img src="https://images.rawpixel.com/image_png_800/cHJpdmF0ZS9sci9pbWFnZXMvd2Vic2l0ZS8yMDIyLTA0L2pvYjY4NC0yMzYtcF8xLnBuZw.png" alt="" />
                         <a href="/" onClick={(e) => handleHomeClick(e)}>
                             <div>
-                                <h3 style={{ color: 'white' }}>Paradise Nursery</h3>
-                                <i style={{ color: 'white' }}>Where Green Meets Serenity</i>
+                                <h3 style={{ color: 'white' }}>Evan e-shop</h3>
+                                <i style={{ color: 'white' }}>The World of Music!</i>
                             </div>
                         </a>
                     </div>
 
                 </div>
                 <div style={styleObjUl}>
-                    <div> <a href="#" onClick={(e) => handlePlantsClick(e)} style={styleA}>Plants</a></div>
+                    <div> <a href="#" onClick={(e) => handlePlantsClick(e)} style={styleA}>Instruments</a></div>
                     <div style={{ position: 'relative' }}>
   <a href="#" onClick={(e) => handleCartClick(e)} >
     <h1 className='cart'>
